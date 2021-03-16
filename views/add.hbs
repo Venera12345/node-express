@@ -1,0 +1,19 @@
+<h1>Add</h1>
+<form action="/add" method="post">
+    <div class="input-field">
+        <input id="name" type="text" name="title" class="validate" required>
+        <label for="name">Name course</label>
+        <span class="helper-text" data-error="Enter name"></span>
+    </div>
+    <div class="input-field">
+        <input id="cost" type="number" name="price" class="validate" min="1" required>
+        <label for="cost">Price course</label>
+        <span class="helper-text" data-error="Enter price"></span>
+    </div>
+    <div class="input-field">
+        <input id="image" type="text" name="img" class="validate" required>
+        <label for="image">URL image</label>
+        <span class="helper-text" data-error="Enter URL"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add course</button>
+</form>
